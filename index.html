@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDCKL Voting Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Title Section -->
+    <header>
+        <h1>SDCKL Voting Platform</h1>
+    </header>
+
+    <!-- Voting Boxes Section -->
+    <section class="voting-boxes">
+        <div class="box" id="box1" onclick="selectBox(1)">
+            <img src="https://via.placeholder.com/150" alt="Option 1">
+            <input type="text" placeholder="Enter Name for Option 1" id="name1">
+        </div>
+        <div class="box" id="box2" onclick="selectBox(2)">
+            <img src="https://via.placeholder.com/150" alt="Option 2">
+            <input type="text" placeholder="Enter Name for Option 2" id="name2">
+        </div>
+        <div class="box" id="box3" onclick="selectBox(3)">
+            <img src="https://via.placeholder.com/150" alt="Option 3">
+            <input type="text" placeholder="Enter Name for Option 3" id="name3">
+        </div>
+    </section>
+
+    <!-- Vote Button -->
+    <section class="vote-button">
+        <button id="voteButton">Vote</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
